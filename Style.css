@@ -1,0 +1,49 @@
+* {
+    font-size: 16px;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+section {
+    content: "";
+    background: url(http://www.w3.org/2000/svg);
+    position: absolute;
+    background-size: 100px 82px;
+    display: block;
+    width: 1440px;
+    height: 437px;
+} 
+
+.container {
+    width: 250px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+}*/
+
+.card {
+    display: flex;
+    width: 325px;
+    height: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: normal;
+    padding-top: auto
+    ;
+}
+
+.hero {
+    width: cover;
+    height: 100px;
+    display: flex;
+    
+}
