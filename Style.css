@@ -1,49 +1,189 @@
-* {
-    font-size: 16px;
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-size: 16px;
+text-align: center;
 }
 
-body {
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+body{
+min-height: 100vh;
+background: url(images/pattern-background-desktop.svg);
+font-family: 'Red Hat Display', sans-serif;
+background-repeat: no-repeat;
+background-size: contain;
+background-color: hsl(225, 100%, 94%);
+position: relative;
 }
 
-section {
-    content: "";
-    background: url(http://www.w3.org/2000/svg);
-    position: absolute;
-    background-size: 100px 82px;
-    display: block;
-    width: 1440px;
-    height: 437px;
-} 
+.container{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+max-width: 450px;
+background: white;
+border-radius: 20px;
+overflow: hidden;
+height: 655px;
+}
 
-.container {
-    width: 250px;
-    height: 600px;
-    background-color: white;
+.text-content {
+    padding: 7%;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: hsl(223, 47%, 23%);
+}
+
+p.sub-title {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;   
+    width: 300px;
+    margin: auto;
+}
+
+.plan-box {
     display: flex;
-}*/
-
-.card {
-    display: flex;
-    width: 325px;
-    height: 600px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: normal;
-    padding-top: auto
-    ;
-}
-
-.hero {
-    width: cover;
+    max-width: 375px;
+    color: hsl(224, 23%, 55%);
     height: 100px;
-    display: flex;
-    
+    margin: auto;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
+
+.music-logo {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.music-logo div {
+    margin-left: 20px;
+}
+
+.music-logo h3 {
+    font-weight: 900;
+    font-style: bold;
+    color: hsl(223, 47%, 23%);
+}
+
+a.change {
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+    color: hsl(245, 75%, 52%);
+}
+
+a.proceed-btn {
+    max-width: 375px;
+    display: flex;
+    height: 50px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    margin: auto;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 15px 10px 0px hsl(225, 100%, 94%);
+}
+
+a.cancel-btn {
+    max-width: 375px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: hsl(224, 23%, 55%);
+    font-style: bold;
+    font-weight: 900;
+}
+
+
+@media screen and (min-width: 375px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 16px;
+        text-align: center;
+        }
+
+    body {
+        min-height: 100vh;
+    }
+
+    .container {
+        max-width: 375px;
+        max-height: 500px;
+    }
+    .hero img {
+        height: 130px;
+        width: 300px
+    }
+    
+    .text-content {
+        padding: 5%;
+    }
+
+    .title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    p.sub-title {
+        font-size: 15px;
+        width: 250px;
+    }
+
+    .plan-box {
+        height: 75px;
+        width: 270px;
+        margin-top: 10px;
+    }
+
+    .music-logo {
+        padding-left: 15px;
+    }
+
+    .music-logo div {
+        margin-left: 15px;
+    }
+
+    .music-logo h3 {
+        font-size: 14px;
+        padding-bottom: 3px;
+    }
+
+    .music-logo p {
+        font-size: 14px;
+    }
+
+    a.change {
+        font-size: 14px;
+    }
+
+    a.proceed-btn {
+        margin-top: 25px;
+        height: 45px;
+        width: 270px;
+        font-size: 14px;
+    }
+
+    a.cancel-btn {
+        padding-top: 10px;
+        font-size: 14px;
+    }
+}  
