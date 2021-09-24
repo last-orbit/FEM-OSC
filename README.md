@@ -4,6 +4,7 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  -[ScreenShots](#screenshots)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
@@ -14,6 +15,9 @@ Here is my first project with FrontEnd Mentor
 ### The challenge
 Create an Order Summary page for an unknown company. 
 
+### Screenshots
+
+Screenshots of the finished product are in the design folder and than in the Finished-Screenshot folder. Both mobile and desktop screenshot are there. 
 ### Built with
 
 
