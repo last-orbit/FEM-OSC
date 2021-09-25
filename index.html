@@ -3,49 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link href="C:\Coding\Projects\Front-End Mentor\order-summary-component-main\Style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="C:\Coding\Projects\Front-End Mentor\order-summary-component-main\FEM-OSC\images\icon-music.svg">
+  <link href="C:\Coding\Projects\Front-End Mentor\order-summary-component-main\FEM-OSC\Style.css" rel="stylesheet">
   <title>Frontend Mentor | Order summary card</title>
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <!--HTML Content Below-->
 <body>
-  <section class="Img">
-    <div class="card">
-      <div class="hero">
-        <img src="C:\Coding\Projects\Front-End Mentor\order-summary-component-main\images\illustration-hero.svg" alt="Hero Image" width="325" height="150">
-      </div>
-      <div class="text">
-          <h2>Order Summary</h2>
-        <div class="sub-text">
-          <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-        </div>
-      </div>
-      <div class="plan">
-        <div class="sml-logo"></div>
-        <div class="plan-text">
-          <h3>Annual Plan</h3>
-          <p>$59.99/year</p>
-        </div>
-        <div class="change">
-          <p>Change</p>
-        </div>
-      </div>
-      <div class="button">
-        <p>Proceed to Payment</p>
-      </div>
-      <div class="cancel">
-        <p>Cancel Order</p>
+  <div class="container">     
+    <div class="hero">
+          <img src="C:\Coding\Projects\Front-End Mentor\order-summary-component-main\FEM-OSC\images\illustration-hero.svg" alt="Hero Image">
+    </div>
+    <div class="text-content">          
+      <h2 class="title">
+        Order Summary
+      </h2> 
+      <p class="sub-title">
+        You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+      </p>
+    </div>
+    <div class="plan-box">
+      <div class="music-logo">
+        <img src="C:\Coding\Projects\Front-End Mentor\order-summary-component-main\FEM-OSC\images\icon-music.svg" alt="Music Logo">
+      <div>
+        <h3>Annual Plan</h3>
+        <p>$59.99/year</p>
       </div>
     </div>
-  </section>
-<!--End of HTML content-->
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <a href="#" class="change">Change</a>
+    </div>
+        <a href="#" class="proceed-btn">Proceed to Payment</a>
+        <a href="#" class="cancel-btn">Cancel Order</a>
   </div>
+<!--End of HTML content-->
 </body>
 </html>
