@@ -10,7 +10,7 @@ text-align: center;
 
 body{
 min-height: 100vh;
-background: url(images/pattern-background-desktop.svg);
+background: url(./images/pattern-background-desktop.svg);
 font-family: 'Red Hat Display', sans-serif;
 background-repeat: no-repeat;
 background-size: contain;
@@ -111,7 +111,7 @@ a.cancel-btn {
 }
 
 
-@media screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
 
     *{
         margin: 0;
@@ -123,6 +123,7 @@ a.cancel-btn {
 
     body {
         min-height: 100vh;
+        background: url(./images/pattern-background-mobile.svg);
     }
 
     .container {
